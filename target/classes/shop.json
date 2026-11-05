@@ -1,0 +1,407 @@
+{
+  "categories": {
+    "minerais": {
+      "nom": "&b&lMinerais",
+      "icone": "DIAMOND",
+      "case": 10,
+      "objets": {
+        "COAL": {
+          "vente": 1,
+          "nom": "&8Charbon"
+        },
+        "IRON_INGOT": {
+          "vente": 3,
+          "nom": "&fLingot de fer"
+        },
+        "GOLD_INGOT": {
+          "vente": 5,
+          "nom": "&eLingot d'or"
+        },
+        "REDSTONE": {
+          "vente": 0.5,
+          "nom": "&cRedstone"
+        },
+        "INK_SACK:4": {
+          "vente": 0.5,
+          "nom": "&9Lapis-lazuli"
+        },
+        "DIAMOND": {
+          "vente": 20,
+          "nom": "&bDiamant"
+        },
+        "EMERALD": {
+          "vente": 25,
+          "nom": "&aÉmeraude"
+        },
+        "QUARTZ": {
+          "vente": 1,
+          "nom": "&fQuartz"
+        },
+        "JADE": {
+          "vente": 30,
+          "nom": "&aJade"
+        },
+        "AMETHYSTE": {
+          "vente": 45,
+          "nom": "&dAméthyste"
+        },
+        "APATITE": {
+          "vente": 60,
+          "nom": "&9Apatite"
+        },
+        "KORIUM_NUGGET": {
+          "vente": 20,
+          "nom": "&cPépite de korium"
+        },
+        "KORIUM_FRAGMENT": {
+          "vente": 60,
+          "nom": "&cFragment de korium"
+        },
+        "KORIUM_INGOT": {
+          "vente": 150,
+          "nom": "&cLingot de korium"
+        },
+        "LITHIUM": {
+          "achat": 40,
+          "vente": 12,
+          "nom": "&3Lithium"
+        },
+        "OBSIDIAN": {
+          "achat": 50,
+          "vente": 2,
+          "nom": "&5Obsidienne"
+        }
+      }
+    },
+    "cultures": {
+      "nom": "&a&lCultures",
+      "icone": "WHEAT",
+      "case": 11,
+      "objets": {
+        "WHEAT": {
+          "vente": 0.6,
+          "nom": "&eBlé"
+        },
+        "CARROT_ITEM": {
+          "vente": 0.5,
+          "nom": "&6Carotte"
+        },
+        "POTATO_ITEM": {
+          "vente": 0.5,
+          "nom": "&ePomme de terre"
+        },
+        "NETHER_STALK": {
+          "vente": 0.75,
+          "nom": "&cVerrue du Nether"
+        },
+        "MELON": {
+          "vente": 0.2,
+          "nom": "&aTranche de pastèque"
+        },
+        "PUMPKIN": {
+          "vente": 1.5,
+          "nom": "&6Citrouille"
+        },
+        "SUGAR_CANE": {
+          "vente": 0.6,
+          "nom": "&aCanne à sucre"
+        },
+        "CACTUS": {
+          "vente": 0.4,
+          "nom": "&2Cactus"
+        },
+        "INK_SACK:3": {
+          "vente": 0.5,
+          "nom": "&6Fèves de cacao"
+        },
+        "HAY_BLOCK": {
+          "vente": 5.4,
+          "nom": "&eBotte de paille"
+        },
+        "RADIS": {
+          "vente": 2,
+          "nom": "&cRadis"
+        },
+        "AVOCAT": {
+          "vente": 2,
+          "nom": "&2Avocat"
+        },
+        "PETIT_ROND": {
+          "vente": 2,
+          "nom": "&aPetit rond"
+        },
+        "MELON_KORIA": {
+          "vente": 2,
+          "nom": "&6Melon"
+        }
+      }
+    },
+    "butins": {
+      "nom": "&c&lButins de mobs",
+      "icone": "ROTTEN_FLESH",
+      "case": 12,
+      "objets": {
+        "ROTTEN_FLESH": {
+          "vente": 0.2,
+          "nom": "&6Chair putréfiée"
+        },
+        "BONE": {
+          "vente": 0.3,
+          "nom": "&fOs"
+        },
+        "ARROW": {
+          "achat": 1,
+          "vente": 0.2,
+          "nom": "&fFlèche"
+        },
+        "STRING": {
+          "vente": 0.3,
+          "nom": "&fFicelle"
+        },
+        "SPIDER_EYE": {
+          "vente": 0.5,
+          "nom": "&cŒil d'araignée"
+        },
+        "SULPHUR": {
+          "vente": 0.5,
+          "nom": "&7Poudre à canon"
+        },
+        "LEATHER": {
+          "vente": 0.8,
+          "nom": "&6Cuir"
+        },
+        "FEATHER": {
+          "vente": 0.2,
+          "nom": "&fPlume"
+        },
+        "RAW_BEEF": {
+          "vente": 0.4,
+          "nom": "&cBœuf cru"
+        },
+        "PORK": {
+          "vente": 0.4,
+          "nom": "&dCôtelette crue"
+        },
+        "RAW_CHICKEN": {
+          "vente": 0.3,
+          "nom": "&fPoulet cru"
+        },
+        "MUTTON": {
+          "vente": 0.4,
+          "nom": "&cMouton cru"
+        },
+        "WOOL": {
+          "vente": 0.5,
+          "nom": "&fLaine"
+        },
+        "GOLD_NUGGET": {
+          "vente": 0.5,
+          "nom": "&ePépite d'or"
+        },
+        "BLAZE_ROD": {
+          "vente": 2,
+          "nom": "&6Bâton de Blaze"
+        },
+        "ENDER_PEARL": {
+          "achat": 30,
+          "vente": 3,
+          "nom": "&5Perle de l'Ender"
+        },
+        "EUCALYPTUS_LEAF": {
+          "vente": 1,
+          "nom": "&aFeuille d'eucalyptus"
+        }
+      }
+    },
+    "poissons": {
+      "nom": "&3&lPoissons",
+      "icone": "RAW_FISH",
+      "case": 13,
+      "objets": {
+        "RAW_FISH:0": {
+          "vente": 2,
+          "nom": "&fPoisson cru"
+        },
+        "RAW_FISH:1": {
+          "vente": 3,
+          "nom": "&cSaumon cru"
+        },
+        "RAW_FISH:2": {
+          "vente": 10,
+          "nom": "&6Poisson-clown"
+        },
+        "RAW_FISH:3": {
+          "vente": 4,
+          "nom": "&ePoisson-globe"
+        },
+        "COOKED_FISH:0": {
+          "vente": 2.5,
+          "nom": "&fPoisson cuit"
+        },
+        "COOKED_FISH:1": {
+          "vente": 3.5,
+          "nom": "&cSaumon cuit"
+        },
+        "TRUITE": {
+          "vente": 6,
+          "nom": "&aTruite"
+        },
+        "ANGUILLE": {
+          "vente": 7,
+          "nom": "&aAnguille"
+        },
+        "ESPADON": {
+          "vente": 10,
+          "nom": "&9Espadon"
+        },
+        "PIRANHA": {
+          "vente": 11,
+          "nom": "&9Piranha"
+        },
+        "RAIE": {
+          "vente": 40,
+          "nom": "&5Raie"
+        },
+        "REQUIN_BLANC": {
+          "vente": 35,
+          "nom": "&5Requin blanc"
+        },
+        "CARPE_DOREE": {
+          "vente": 70,
+          "nom": "&6Carpe dorée"
+        },
+        "CRABE": {
+          "vente": 60,
+          "nom": "&6Crabe"
+        }
+      }
+    },
+    "blocs": {
+      "nom": "&7&lBlocs",
+      "icone": "GRASS",
+      "case": 14,
+      "objets": {
+        "DIRT": {
+          "achat": 0.5,
+          "nom": "&6Terre"
+        },
+        "GRASS": {
+          "achat": 1,
+          "nom": "&aHerbe"
+        },
+        "SAND": {
+          "achat": 1,
+          "nom": "&eSable"
+        },
+        "GRAVEL": {
+          "achat": 1,
+          "nom": "&7Gravier"
+        },
+        "COBBLESTONE": {
+          "achat": 0.5,
+          "vente": 0.05,
+          "nom": "&7Pierre taillée"
+        },
+        "STONE": {
+          "achat": 1,
+          "vente": 0.1,
+          "nom": "&7Pierre"
+        },
+        "LOG": {
+          "achat": 2,
+          "vente": 0.5,
+          "nom": "&6Bûche de chêne"
+        },
+        "LOG:1": {
+          "achat": 2,
+          "vente": 0.5,
+          "nom": "&6Bûche de sapin"
+        },
+        "LOG_2:1": {
+          "achat": 2,
+          "vente": 0.5,
+          "nom": "&6Bûche de chêne noir"
+        },
+        "GLASS": {
+          "achat": 1.5,
+          "nom": "&fVerre"
+        },
+        "GLOWSTONE": {
+          "achat": 3,
+          "nom": "&ePierre lumineuse"
+        },
+        "SOUL_SAND": {
+          "achat": 3,
+          "nom": "&6Sable des âmes"
+        },
+        "WATER_BUCKET": {
+          "achat": 10,
+          "nom": "&9Seau d'eau"
+        }
+      }
+    },
+    "nourriture": {
+      "nom": "&6&lNourriture",
+      "icone": "COOKED_BEEF",
+      "case": 15,
+      "objets": {
+        "BREAD": {
+          "achat": 2,
+          "nom": "&6Pain"
+        },
+        "COOKED_BEEF": {
+          "achat": 4,
+          "nom": "&6Steak"
+        },
+        "GRILLED_PORK": {
+          "achat": 4,
+          "nom": "&6Côtelette cuite"
+        },
+        "GOLDEN_APPLE": {
+          "achat": 150,
+          "nom": "&6Pomme d'or"
+        },
+        "GOLDEN_CARROT": {
+          "achat": 10,
+          "nom": "&6Carotte dorée"
+        }
+      }
+    },
+    "graines": {
+      "nom": "&2&lGraines",
+      "icone": "SEEDS",
+      "case": 16,
+      "objets": {
+        "SEEDS": {
+          "achat": 2,
+          "vente": 0.1,
+          "nom": "&aGraines de blé"
+        },
+        "MELON_SEEDS": {
+          "achat": 5,
+          "nom": "&aGraines de pastèque"
+        },
+        "PUMPKIN_SEEDS": {
+          "achat": 5,
+          "nom": "&6Graines de citrouille"
+        },
+        "GRAINES_RADIS": {
+          "achat": 50,
+          "nom": "&cGraines de radis"
+        },
+        "GRAINES_AVOCAT": {
+          "achat": 50,
+          "nom": "&2Graines d'avocat"
+        },
+        "GRAINES_PETIT_ROND": {
+          "achat": 50,
+          "nom": "&aGraines de petit rond"
+        },
+        "GRAINES_MELON": {
+          "achat": 50,
+          "nom": "&6Graines de melon"
+        }
+      }
+    }
+  }
+}

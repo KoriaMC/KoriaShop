@@ -1,0 +1,7 @@
+{
+  "detail-max-lignes": 5,
+  "multiplicateurs-vente": {
+    "koriashop.vente.bonus10": 1.1,
+    "koriashop.vente.bonus20": 1.2
+  }
+}

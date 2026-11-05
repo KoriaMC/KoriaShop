@@ -1,0 +1,49 @@
+{
+  "prefix": "&8[&eShop&8] ",
+  "menu": {
+    "titre": "&8Shop",
+    "categorie-lore": [
+      "&7{objets} objet(s)",
+      "&eClic : ouvrir"
+    ],
+    "retour": "&7← Retour",
+    "tout-vendre": "&a&lTout vendre",
+    "tout-vendre-lore": ["&7Déposez vos objets dans le coffre :", "&7tout ce que le shop reprend est", "&7vendu à la fermeture."]
+  },
+  "categorie": {
+    "achat": [
+      "&7Achat : &c{prix} $ &8(x{stack} : {prix64} $)",
+      "&eClic gauche : acheter 1",
+      "&eShift + clic gauche : acheter {stack}"
+    ],
+    "vente": [
+      "&7Vente : &a{prix} $",
+      "&eClic droit : vendre 1",
+      "&eShift + clic droit : tout vendre"
+    ],
+    "indisponible": "&cNi achat ni vente"
+  },
+  "tout-vendre": {
+    "titre": "&8Tout vendre (fermer pour vendre)"
+  },
+  "achat": {
+    "ok": "{prefix}&aVous avez acheté &f{quantite}x {objet} &apour &c{prix} $&a.",
+    "pas-assez": "{prefix}&cIl vous faut &f{prix} $&c.",
+    "indisponible": "{prefix}&cCet objet n'est pas en vente.",
+    "inventaire-plein": "{prefix}&cVotre inventaire est plein."
+  },
+  "vente": {
+    "ligne": "&8 » &f{quantite}x {objet} &8: &a+{prix} $",
+    "total": "{prefix}&aVente : &f{quantite} &aobjet(s) pour &a&l{prix} ${bonus}",
+    "rien": "{prefix}&7Aucun objet que le shop reprend.",
+    "non-repris": "{prefix}&cLe shop ne reprend pas cet objet."
+  },
+  "erreurs": {
+    "economie": "{prefix}&cÉconomie indisponible (Vault).",
+    "permission": "{prefix}&cVous n'avez pas la permission.",
+    "joueur": "{prefix}&cCommande réservée aux joueurs."
+  },
+  "commande": {
+    "recharge": "{prefix}&aShop rechargé ({problemes} problème(s))."
+  }
+}

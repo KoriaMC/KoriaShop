@@ -1,0 +1,25 @@
+name: KoriaShop
+version: ${project.version}
+main: fr.koriamc.shop.KoriaShop
+author: KoriaMC
+description: ${project.description}
+depend: [Vault]
+softdepend: [KoriaQuest, KoriaKrebbs]
+
+commands:
+  shop:
+    description: Shop du serveur
+    aliases: [boutique-jeu, magasin]
+    usage: /shop [catégorie|reload]
+  sell:
+    description: Vendre au shop (coffre, main, tout l'inventaire)
+    aliases: [vendre]
+    usage: /sell [hand|all]
+
+permissions:
+  koriashop.sell.all:
+    description: /sell all (vendre tout l'inventaire d'un coup)
+    default: true
+  koriashop.admin:
+    description: /shop reload
+    default: op
